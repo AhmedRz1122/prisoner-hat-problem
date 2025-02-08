@@ -1,0 +1,75 @@
+body{
+    background-image: url(prison.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(to right,rgb(155, 155, 26),green); */
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+
+}
+.timer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
+    height: 100px;
+    width: 300px; 
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+}
+.container{
+    height: 250px;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.pos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+}
+.time-heading{
+    text-align: center;
+}
+.hat{
+    height: 80px;
+    width: 140px;
+    border: 2px solid black;
+    border-top-left-radius: 16px ;
+    border-top-right-radius: 16px;
+    margin-top: 12px;
+    margin-left: 6px;
+}
+.replay {
+    padding: 10px 20px; 
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
+    height: 100px;
+    width: 344px; 
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+}
+.main{
+    display: flex;
+}
